@@ -1,0 +1,161 @@
+/*div con el id contenedor*/
+#contenedor{
+    margin-left: 20vw; /*Margen izquierdo*/
+    width: 60vw; /*Ancho*/
+    margin-top: -0.4%; /*Margen superior*/
+    background-color: #ffffff;/*Color de fondo*/
+    border: 10px solid #f1f1f1; /*Borde*/
+    border-radius: 15px; /*Radio del borde*/
+    /*position: relative;*/
+}
+
+/*div con el id cabecera*/
+#cabecera{
+    text-align: center; /*Aliniado del tecto central*/
+    margin-top: -1.75%; /*Margen superior*/
+    margin-bottom: 0%; /*Margen inferior*/
+}
+
+/*h2 dentro del div con el id logo*/
+#logo h2{
+    background-color: #222222; /*Color de fondo*/
+    color: #ffffff; /*Color del texto*/
+    padding: 1% 0%; /*Padding*/
+}
+
+/*div con el id menu*/
+#menu{
+    background-color: #0000ff; /*Color de fondo*/
+    text-align: center; /*Texto alineado*/
+    padding: 1% 0%; /*Padding*/
+    margin-top: -1.75%; /*Margen superior*/
+}
+
+/*Lista desordenada dentro del div con el id menu*/
+#menu ul{
+    list-style: none; /*Estilo de la lista*/
+    padding: 0; /*Padding*/
+    margin: 0; /*Margen*/
+}
+
+/*Elementos de una lista dentro del div con id #menu*/
+#menu li {   
+    display: inline; /*Diplay en línea*/ 
+    margin-right: 20px; /*Margen derecho*/ 
+    font-weight: bold; /*Ancho de la fuente*/
+}
+
+/*Enlaces dentro del div con el id menu*/
+#menu a {
+    text-decoration: none; /*Decoración del texto sin subrayado*/
+    color: #fff; /*Color del tecto*/
+    font-size: 16px; /*Tamaño de la fuente*/
+}
+
+#menu a:hover {
+    text-decoration: underline; /*Subrayado*/
+}
+
+#menu a:active{
+    text-decoration: none; /*Decoración del texto sin subrayado*/
+    color: #ff0000; /*Color del tecto*/
+    font-size: 16px; /*Tamaño de la fuente*/
+}
+
+/*h2 dentro del div con la clase articulo*/
+.articulo h2{
+    /*position: absolute;*/
+    color: #0000ff; /*Color del texto*/
+    margin: 3% 0 0 1%; /*Margen*/
+}
+
+/*Todos los párrafos*/
+p{
+    margin: 3% 0 0 1%; /*Margen*/
+}
+
+/*Párrafo que es el 3º hijo*/
+p:nth-child(3){
+    margin: 0 0 -3% 1%; /*Margen*/
+}
+
+/*Último párrafo*/
+p:last-child{
+    margin-bottom: 3%; /*Margen inferior*/
+}
+
+/*Enlace dentro del div con clase articulo*/
+/*No visitado*/
+.articulo a/*:link*/{
+    color: #ff0000; /*Color del texto*/
+}
+
+/*Visitado*/
+.articulo a:visited{
+    color: #008000; /*Color del texto*/
+}
+
+/*Seleccionado con el tabulador*/
+.articulo a:focus{
+    color: #0000ff; /*Color del texto*/
+}
+
+/*Raton por encima*/
+.articulo a:hover{
+    background-color: #000000; /*Color de fondo*/
+    color: #ffffff; /*Color del texto*/
+}
+
+/*Activo*/
+.articulo a:active{
+    color: #ff00ff; /*Color del texto*/
+}
+
+/*Formulario*/
+form{
+    background-color: #a8a8a8; /*Color de fondo*/
+    width: 40vw; /*Ancho*/
+    margin-left: 10vw; /*Margen izquierdo*/
+    padding-top: 2%; /*Padding superior*/
+}
+
+/*inpts y textarea*/
+input, textarea{
+    margin: 2% 0% 2% 10%; /*Margen*/
+    padding: 1% 0 1% 1%; /*Padding*/
+    border: none; /*Borde*/
+}
+
+/*inputs tipo texto y email*/
+input[type="text"], [type="email"]{
+    display: block; /*Display*/
+    width: 80%; /*Ancho*/
+}
+
+/*textarea*/
+textarea{
+    display: block; /*Display*/
+    width: 80.25%; /*Ancho*/
+    padding-bottom: 6%; /*Padding inferior*/
+}
+
+/*input tipo submit (botón)*/
+input[type="submit"]{
+    background-color: #0000ff; /*Color de fondo*/
+    color: #ffffff; /*Color de texto*/
+    font-size: 18px; /*Tamaño de la fuente*/
+    padding: 1% 6% 1% 6%; /*Padding*/
+    margin-bottom: 6%; /*Margen inferior*/
+}
+
+/*Elementos del formulario cuando tienen el foco*/
+input:focus, textarea:focus{
+    border: 1px solid #000000; /*Borde*/
+    border-radius: 5px; /*Radio del borde*/
+}
+
+/*Botón cuando pase el ratón por encima*/
+input[type="submit"]:hover{
+    background-color: #4f4ffd; /*Color de fondo*/
+    color: #ffffff; /*Color de texto*/
+}
